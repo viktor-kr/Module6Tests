@@ -4,12 +4,7 @@ import org.openqa.selenium.By;
 import components.NavigationBar;
 import components.PagePopup;
 
-/**
- * Фабрика компонентов
- *
- * @author Gladkov Alex (aka. Anticisco)
- * @version 2.0.0
- */
+
 
 public final class UiComponentFactory {
 

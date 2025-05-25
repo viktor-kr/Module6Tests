@@ -1,21 +1,17 @@
-package tests;
-
 import com.codeborne.selenide.Configuration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
-import components.PagePopup;
 import pages.LoginPage;
-import pages.MainPage;
+import pages.mainPage.MainPage;
 
 import static com.codeborne.selenide.Selenide.open;
 
 
-public class BaseClass {
 
-    private static final Logger logger = LoggerFactory.getLogger(BaseClass.class);
+public class BaseTestClass {
+
+    private static final Logger logger = LoggerFactory.getLogger(BaseTestClass.class);
 
     private LoginPage loginPage;
 

@@ -6,8 +6,9 @@ import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 import elements.UiComponent;
 import pages.*;
+import pages.mainPage.MainPage;
+import pages.userPage.models.ApiPage;
 
-import java.util.NoSuchElementException;
 public class NavigationBar extends UiComponent {
 
     public static final By SELF = By.cssSelector("nav[data-testid='navbar']");
